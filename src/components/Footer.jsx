@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="footer__links">
           <p className="footer__links-title">Navegación</p>
           <nav>
-            {['Inicio','Servicios','Nosotros','Flota','Contacto'].map(l => (
+            {['Inicio','Servicios','Nosotros','Valores','Contacto'].map(l => (
               <a key={l} href={`#${l.toLowerCase()}`} className="footer__link">{l}</a>
             ))}
           </nav>

@@ -7,7 +7,7 @@ const navLinks = [
   { label: 'Inicio',    href: '#inicio' },
   { label: 'Servicios', href: '#servicios' },
   { label: 'Nosotros',  href: '#nosotros' },
-  { label: 'Flota',     href: '#flota' },
+  { label: 'Valores',   href: '#valores' },
   { label: 'Contacto',  href: '#contacto' },
 ]
 
@@ -29,8 +29,8 @@ export default function Navbar() {
         <a href="#inicio" className="navbar__logo">
           <img src={logoImg} alt="MDC Logo" className="navbar__logo-img" />
           <div className="navbar__logo-text">
-            <span className="navbar__logo-main">DIESEL</span>
-            <span className="navbar__logo-sub">Córdoba</span>
+            <span className="navbar__logo-main">Mantenimiento</span>
+            <span className="navbar__logo-sub">Diesel de Córdoba</span>
           </div>
         </a>
 

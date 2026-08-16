@@ -1,0 +1,104 @@
+.mission {
+  position: relative;
+  padding: 120px 0;
+  background: var(--blue-600);
+  overflow: hidden;
+}
+
+.mission__bg {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(30,95,173,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30,95,173,0.08) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.mission__header {
+  position: relative;
+  margin-bottom: 56px;
+  max-width: 640px;
+}
+
+/* Grid */
+.mission__grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* Card */
+.mission-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-lg);
+  padding: 36px 30px;
+  transition: background 0.3s, border-color 0.3s, transform 0.3s;
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+}
+
+.mission-card:hover {
+  background: rgba(113, 134, 159, 0.2);
+  border-color: rgba(94,163,232,0.3);
+  transform: translateY(-4px);
+}
+
+.mission-card__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-md);
+  background: rgba(245, 158, 11, 0.14);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mission-card__title {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: white;
+  margin-bottom: 14px;
+}
+
+.mission-card__text {
+  font-size: 15px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+/* Valores chips */
+.mission-card__chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-content: flex-start;
+}
+
+.mission-card__chip {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 100px;
+  padding: 7px 14px;
+  line-height: 1.2;
+}
+
+@media (max-width: 900px) {
+  .mission__grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .mission { padding: 80px 0; }
+}

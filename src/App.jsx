@@ -2,7 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import About from './components/About'
-import Fleet from './components/Fleet'
+import Mission from './components/Mission'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -14,7 +14,7 @@ export default function App() {
         <Hero />
         <Services />
         <About />
-        <Fleet />
+        <Mission />
         <Contact />
       </main>
       <Footer />

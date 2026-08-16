@@ -1,5 +1,4 @@
 import { Wrench, Zap, Settings, Truck, Shield, Clock } from 'lucide-react'
-import Seam from './Seam'
 import './Services.css'
 
 // ← Personaliza estos servicios con los de tu empresa
@@ -7,19 +6,19 @@ const services = [
   {
     icon: Wrench,
     title: 'Mantenimiento Preventivo',
-    desc: 'Descripción del servicio de mantenimiento preventivo. Cambio de aceite, filtros, revisión general y más.',
+    desc: 'Cambio de aceite, filtros, revisión general y más.',
     tag: 'Popular',
   },
   {
     icon: Settings,
-    title: 'Reparación de Motor',
-    desc: 'Descripción del servicio de reparación de motores diesel. Diagnóstico completo y solución garantizada.',
+    title: 'Servico de reparacion de bombas',
+    desc: 'Limpieza , reparación y calibración de bombas de inyección diesel.',
     tag: null,
   },
   {
     icon: Zap,
     title: 'Sistema de Inyección',
-    desc: 'Servicio y reparación de sistemas de inyección diesel. Limpieza, calibración y reemplazo de inyectores.',
+    desc: 'Reparación de inyectores. Limpieza, calibración y reemplazo de inyectores deisel y gasolina.',
     tag: null,
   },
   {
@@ -30,8 +29,8 @@ const services = [
   },
   {
     icon: Shield,
-    title: 'Diagnóstico Electrónico',
-    desc: 'Diagnóstico computarizado con equipo especializado para detectar fallas en sistemas electrónicos.',
+    title: 'Servicio a turbocargadores',
+    desc: 'Reparación y mantenimiento de turbocargadores para motores diesel y gasolina.',
     tag: null,
   },
   {
@@ -77,8 +76,6 @@ export default function Services() {
         </div>
 
       </div>
-
-      <Seam toColor="var(--blue-600)" />
     </section>
   )
 }

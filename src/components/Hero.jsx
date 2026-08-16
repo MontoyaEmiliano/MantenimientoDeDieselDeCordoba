@@ -34,7 +34,7 @@ export default function Hero() {
         {/* Subtitle */}
         <p className="hero__subtitle animate-fade-up delay-2">
           Especialistas en reparación y mantenimiento de motores a diesel.
-          Más de <strong>[20] años</strong> de experiencia garantizando el rendimiento de tu flotilla.
+          Más de <strong>25 años</strong> de experiencia garantizando el rendimiento de tu flotilla.
         </p>
 
         {/* CTAs */}
