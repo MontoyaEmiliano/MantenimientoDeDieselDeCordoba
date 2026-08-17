@@ -1,8 +1,8 @@
 .contact {
   position: relative;
   padding: 120px 0;
-  background: var(--gray-50);
-  border-top: 1px solid var(--gray-200);
+  background: var(--blue-50);
+  border-top: 1px solid var(--blue-100);
 }
 
 .contact__inner {

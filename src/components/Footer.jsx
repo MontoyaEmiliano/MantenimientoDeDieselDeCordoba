@@ -1,4 +1,4 @@
-import { Wrench } from 'lucide-react'
+import logoImg from '../assets/logo MDC nuevo.png'
 import './Footer.css'
 
 const year = new Date().getFullYear()
@@ -10,7 +10,7 @@ export default function Footer() {
 
         <div className="footer__brand">
           <div className="footer__logo">
-            <div className="footer__logo-icon"><Wrench size={18} /></div>
+            <div className="footer__logo-icon"><img src={logoImg} alt="MDC Logo" className="footer__logo-img" /></div>
             <div>
               <span className="footer__logo-main">DIESEL Córdoba</span>
               <span className="footer__logo-sub">Mantenimiento Especializado</span>

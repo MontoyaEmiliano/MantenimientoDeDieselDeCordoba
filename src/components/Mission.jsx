@@ -64,7 +64,7 @@ export default function Mission() {
         </div>
       </div>
 
-      <Seam toColor="var(--gray-50)" />
+      <Seam toColor="var(--blue-50)" />
     </section>
   )
 }

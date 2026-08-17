@@ -1,4 +1,4 @@
-import { Wrench, Zap, Settings, Truck, Shield, Clock } from 'lucide-react'
+import { Wrench, Zap, Settings, Shield } from 'lucide-react'
 import './Services.css'
 
 // ← Personaliza estos servicios con los de tu empresa
@@ -11,33 +11,21 @@ const services = [
   },
   {
     icon: Settings,
-    title: 'Servico de reparacion de bombas',
+    title: 'Servicio de reparación de bombas',
     desc: 'Limpieza , reparación y calibración de bombas de inyección diesel.',
     tag: null,
   },
   {
     icon: Zap,
-    title: 'Sistema de Inyección',
-    desc: 'Reparación de inyectores. Limpieza, calibración y reemplazo de inyectores deisel y gasolina.',
+    title: 'Servicio a inyectores',
+    desc: 'Limpieza, reparación y calibración de inyectores de diesel y gasolina.',
     tag: null,
-  },
-  {
-    icon: Truck,
-    title: 'Flotillas Empresariales',
-    desc: 'Planes de mantenimiento para flotillas de camiones y vehículos de carga. Contratos especiales.',
-    tag: 'Empresas',
   },
   {
     icon: Shield,
-    title: 'Servicio a turbocargadores',
-    desc: 'Reparación y mantenimiento de turbocargadores para motores diesel y gasolina.',
+    title: 'Servicio a turbo cargadores',
+    desc: 'Servicio de reparación y mantenimiento de turbo cargadores agricolas e industriales.',
     tag: null,
-  },
-  {
-    icon: Clock,
-    title: 'Servicio Express',
-    desc: 'Atención rápida para servicios de menor complejidad. Sin cita previa en horario disponible.',
-    tag: 'Rápido',
   },
 ]
 

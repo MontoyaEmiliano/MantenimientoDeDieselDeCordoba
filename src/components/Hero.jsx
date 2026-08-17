@@ -1,5 +1,6 @@
 import { ChevronDown, Phone, MapPin } from 'lucide-react'
 import Seam from './Seam'
+import logoImg from '../assets/logo MDC nuevo.png'
 import './Hero.css'
 
 export default function Hero() {
@@ -15,6 +16,8 @@ export default function Hero() {
       </div>
 
       <div className="container hero__inner">
+
+        <img src={logoImg} alt="Mantenimiento Diesel de Córdoba" className="hero__logo-mark" />
 
         {/* Badge */}
         <div className="hero__badge animate-fade-up">
@@ -73,7 +76,7 @@ export default function Hero() {
       </a>
 
       {/* Costura hacia la siguiente sección */}
-      <Seam toColor="var(--white)" />
+      <Seam toColor="var(--blue-50)" />
     </section>
   )
 }

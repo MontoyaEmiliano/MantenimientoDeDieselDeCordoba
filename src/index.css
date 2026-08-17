@@ -22,6 +22,10 @@
   --accent: #f59e0b;
   --accent-dark: #d97706;
 
+  /* Azul de referencia (carpeta física) para las tarjetas de servicios */
+  --blue-folder: #2e66b8;
+  --blue-folder-dark: #23508f;
+
   --font-display: 'Barlow Condensed', sans-serif;
   --font-body: 'Barlow', sans-serif;
 
