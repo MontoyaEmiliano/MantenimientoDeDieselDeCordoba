@@ -1,4 +1,4 @@
-import { Wrench, Zap, Settings, Shield } from 'lucide-react'
+import { Wrench, Syringe, Settings, Fan } from 'lucide-react'
 import './Services.css'
 
 // ← Personaliza estos servicios con los de tu empresa
@@ -16,13 +16,13 @@ const services = [
     tag: null,
   },
   {
-    icon: Zap,
+    icon: Syringe,
     title: 'Servicio a inyectores',
     desc: 'Limpieza, reparación y calibración de inyectores de diesel y gasolina.',
     tag: null,
   },
   {
-    icon: Shield,
+    icon: Fan,
     title: 'Servicio a turbo cargadores',
     desc: 'Servicio de reparación y mantenimiento de turbo cargadores agricolas e industriales.',
     tag: null,
