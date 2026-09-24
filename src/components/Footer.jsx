@@ -18,14 +18,14 @@ export default function Footer() {
           </div>
           <p className="footer__tagline">
             {/* ← Personaliza con tu slogan */}
-            Tu motor, nuestra responsabilidad.
+            nuestra misión es servirle.
           </p>
         </div>
 
         <div className="footer__links">
           <p className="footer__links-title">Navegación</p>
           <nav>
-            {['Inicio','Servicios','Nosotros','Valores','Contacto'].map(l => (
+            {['Inicio','Servicios','Nosotros','Filosofía','Contacto'].map(l => (
               <a key={l} href={`#${l.toLowerCase()}`} className="footer__link">{l}</a>
             ))}
           </nav>
@@ -33,8 +33,8 @@ export default function Footer() {
 
         <div className="footer__links">
           <p className="footer__links-title">Contacto rápido</p>
-          <p className="footer__contact-item">[Tu teléfono]</p>
-          <p className="footer__contact-item">[Tu correo]</p>
+          <p className="footer__contact-item">2383827577</p>
+          <p className="footer__contact-item">mdiesel_tehuacan@live.com.mx</p>
           <p className="footer__contact-item">Córdoba, Veracruz, México</p>
         </div>
 
